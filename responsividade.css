@@ -1,0 +1,49 @@
+.header{
+    overflow: hidden;
+    margin: 0;
+    width: 99%;
+    background-color: crimson;
+    padding: 15px;
+    font-size: 1.2rem;
+}
+.menu{
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+    float: right;
+}
+li{
+    float: left;
+    color: white;
+    margin-left: 15px;
+    font-family: 'Roboto';
+    font-weight: bolder;
+    
+    
+} 
+.logo{
+    float: left;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+
+} 
+@media screen and (max-width: 562px){
+ .header{
+    background: crimson; 
+ }
+ .logo{
+     float: none;
+     text-align: center;
+}
+.menu{
+    float: none;
+    text-align: center;
+    margin-top: 10px;
+}
+li{
+    float: none;
+    
+    
+}   
+}
